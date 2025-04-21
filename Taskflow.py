@@ -1,3 +1,16 @@
+"""
+🚀 TaskFlow - Gérez, modifiez et suivez vos tâches intelligemment avec Python & SQLite 📝
+Vous avez besoin d’un moyen simple et efficace pour ajouter, modifier, supprimer et consulter vos tâches ? TaskFlow est là pour vous !
+✅ Ajoutez vos tâches en toute simplicité
+✅ Modifiez une tâche existante au lieu de la supprimer
+✅ Supprimez les tâches terminées
+✅ Affichez vos tâches sous forme organisée
+✅ Sauvegarde automatique avec SQLite pour ne rien perdre
+🎯 Pourquoi choisir TaskFlow ?
+Parce qu’il offre une gestion complète des tâches avec Python et SQLite sans dépendre d’outils complexes. C’est rapide, léger et facile à utiliser !
+💻 Essayez-le maintenant et boostez votre organisation ! 
+"""
+
 import sqlite3
 class Mestaches:
     def __init__(self, tache=None): #constructeur de la classe avec un paramètre optionnel tache 

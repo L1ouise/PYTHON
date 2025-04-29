@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+#from fastapi import FastAPI
 import string
 import random
 
@@ -24,6 +24,7 @@ class PasswordGenerator:
     def generer(self):
         return ''.join(random.choice(self.generate_password) for _ in range(self.lenght))   
 
+"""
 app = FastAPI()
 @app.get("/generer_mot_de_passe")  
 def api_generer_mot_de_passe(lenght: int, level: str):
@@ -31,4 +32,6 @@ def api_generer_mot_de_passe(lenght: int, level: str):
         generateur = PasswordGenerator(lenght, level)
         return {"mot_de_passe": generateur.generer()}
     except ValueError as e:
-        return {"erreur": str(e)}   
+        return {"erreur": str(e)}
+"""
+   
